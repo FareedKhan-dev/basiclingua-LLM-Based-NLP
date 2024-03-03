@@ -1,6 +1,6 @@
 <!-- omit in toc -->
 # BasicLingua
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1aWOEpzco-7zevu2ma7djkiCpcV_Rk2Iv?usp=sharing) [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/fareedkhan557/basiclingua-nlp) [![GitHub](https://img.shields.io/badge/GitHub-Notebook-blue?logo=github)](https://github.com/FareedKhan-dev/basic_lingua/blob/main/backend_notebook.ipynb) [![Documentation](https://img.shields.io/badge/Documentation-Link-blue)](https://basiclingua-docs.streamlit.app/) [![License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1aWOEpzco-7zevu2ma7djkiCpcV_Rk2Iv?usp=sharing) [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/fareedkhan557/basiclingua-nlp) [![GitHub](https://img.shields.io/badge/GitHub-Notebook-blue?logo=github)](https://github.com/FareedKhan-dev/basic_lingua/blob/master/backend_notebook.ipynb) [![Documentation](https://img.shields.io/badge/Documentation-Link-blue)](https://basiclingua-docs.streamlit.app/) [![License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
 
 ![Basic-Lingua Logo](https://i.ibb.co/smMH4dR/logo.png)
 
@@ -156,7 +156,7 @@ There are total **31** functionalities provided by the library. Here is the list
 ## BasicLingua Playground
 [[Try the Colab Demo](https://colab.research.google.com/drive/1aWOEpzco-7zevu2ma7djkiCpcV_Rk2Iv?usp=sharing)] &nbsp; [[Try Kaggle Demo](https://www.kaggle.com/code/fareedkhan557/basiclingua-nlp)] &nbsp; [[Learn from Documentation](https://basiclingua-docs.streamlit.app/)]
 
-Since this library is available under the MIT license, you can use it in your projects. You can also contribute to the library by adding new functionalities or improving the existing ones. All the backend code is available in the [this notebook](https://github.com/FareedKhan-dev/basic_lingua/blob/main/backend_notebook.ipynb).
+Since this library is available under the MIT license, you can use it in your projects. You can also contribute to the library by adding new functionalities or improving the existing ones. All the backend code is available in the [this notebook](https://github.com/FareedKhan-dev/basic_lingua/blob/master/backend_notebook.ipynb).
 
 ## Contributors
 
