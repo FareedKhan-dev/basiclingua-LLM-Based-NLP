@@ -26,7 +26,7 @@ The problem that we plan to tackle is the increasing complexity and difficulty o
 
 ## Installation
 
-To install the library, you can use pip:ff
+To install the library, you can use pip:
 
 ```bash
 pip install basiclingua
