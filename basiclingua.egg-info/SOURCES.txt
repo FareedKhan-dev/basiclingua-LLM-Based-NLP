@@ -1,0 +1,8 @@
+README.md
+setup.py
+basiclingua/__init__.py
+basiclingua.egg-info/PKG-INFO
+basiclingua.egg-info/SOURCES.txt
+basiclingua.egg-info/dependency_links.txt
+basiclingua.egg-info/requires.txt
+basiclingua.egg-info/top_level.txt
