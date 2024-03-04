@@ -4,7 +4,7 @@
 
 ![Basic-Lingua Logo](https://i.ibb.co/smMH4dR/logo.png)
 
-Basiclingua is a Gemini LLM based Python library that provides functionalities for linguistic tasks such as tokenization, stemming, lemmatization, and many others.'
+Basiclingua is a Gemini LLM based Python library that provides functionalities for linguistic tasks such as tokenization, stemming, lemmatization, and many others.
 
 **Why Building this Project?**
 
