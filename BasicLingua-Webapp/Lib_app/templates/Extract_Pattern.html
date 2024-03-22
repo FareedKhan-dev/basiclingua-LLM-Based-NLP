@@ -1,0 +1,60 @@
+{% extends 'base_lang.html' %}
+{% load static %}
+{% block intro %}
+   
+{% endblock intro %}
+
+{% block api_form %}
+    
+{% endblock api_form %}
+    
+
+{% block docs %}
+    <h5>Navigate to Extract Patterns <span><a style="text-decoration: none;" href="https://basiclingua-docs.streamlit.app/">here </a><span>to know more</span></span></h5>
+{% endblock docs %} 
+
+{% block form_content %}        
+    <div class="col-md-6">
+        <div class="yellow">
+                <h1 style="font-size: 25px;">Extract Patterns</h1>
+                <form class="form-design" id="translation-form" method="post">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <input type="hidden" class="form-control" id="api_key" style="color: white;" name="api_key" placeholder="Enter Gemini API Key" value="{{ form.api_key.value }}">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="user_input" name="user_input" style="color: white;" placeholder="Enter Text to Extract patterns..." value="{{ form.user_input.value }}">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="patterns" name="patterns" style="color: white;" placeholder="email, phone number, ..." value="{{ form.patterns.value }}">
+                    </div>
+                    <button id="extract-button" type="button" class="btn btn-primary">Extract</button>
+                    <button id="refresh-button" type="button" class="btn btn-secondary">Refresh</button> 
+                </form>
+                
+                <div id="loader" class="loader"></div>
+                
+                
+                <div id="extraction-result" style="margin-top: 20px;">
+                    {% if extracted_patterns %}
+                    <h1 style="font-size: 25px;">Extraction Result</h1>
+                    <p style="text-align: left;">{{extracted_patterns}}</p>
+                    {% endif %}
+                </div>
+            
+                
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script>var translationUrl = "{% url 'extract-patterns' %}";</script>
+    
+    <script src="{% static 'js/Extract_Pattern.js' %}"></script>
+
+{% endblock form_content %}
+
+    
