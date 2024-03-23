@@ -173,8 +173,8 @@ Since this library is available under the MIT license, you can use it in your pr
 
 ## Contributors
 
-<a href="https://github.com/FareedKhan-dev/basic_lingua/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=FareedKhan-dev/basic_lingua" />
+<a href="https://github.com/FareedKhan-dev/basiclingua-LLM-Based-NLP/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=FareedKhan-dev/basiclingua-LLM-Based-NLP" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
