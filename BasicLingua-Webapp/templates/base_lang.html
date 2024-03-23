@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="row justify-content-center" style="margin-top: 20px; margin-bottom:20px ;">
+    <div class="col-md-6">
+        <div class="red">
+            <p style="font-size: 20px;">Make sure to replace YOUR GEMINI API KEY with your actual API key, which you can obtain by creating an account on the Google AI Studio platform and generating an API key.</p>
+            {% block docs %}
+    
+            {% endblock docs %}    
+        </div>
+    </div>
+    {% block form_content %}
+    {% endblock form_content %}
+</div>
+
+{% endblock content %}
