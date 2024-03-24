@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>{% block title %}BasicLingua{% endblock %}</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -142,6 +142,15 @@
                     alert("Please enter your API key before accessing the Extract Patterns feature!");
                 }
             });
+
+            document.querySelectorAll('.sidebar a').forEach(function(link) {
+            link.addEventListener('click', function(event) {
+                if (!localStorage.getItem("api_key")) {
+                    event.preventDefault();
+                    alert("Please save your API key before accessing this feature!");
+                }
+            });
+        });
     </script>
 </body>
 </html>
