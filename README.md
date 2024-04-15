@@ -3,7 +3,7 @@
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1aWOEpzco-7zevu2ma7djkiCpcV_Rk2Iv?usp=sharing) [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/fareedkhan557/basiclingua-nlp) [![GitHub](https://img.shields.io/badge/GitHub-Notebook-blue?logo=github)](https://github.com/FareedKhan-dev/basic_lingua/blob/master/backend_notebook.ipynb) [![Documentation](https://img.shields.io/badge/Documentation-Link-blue)](https://basiclingua-docs.streamlit.app/) [![License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT) [![Django](https://img.shields.io/badge/Django-Project-green?logo=django)](https://github.com/FareedKhan-dev/basiclingua-LLM-Based-NLP/tree/master/BasicLingua-Webapp)
 
 
-![Basic-Lingua Logo](https://i.ibb.co/smMH4dR/logo.png)
+![Basic-Lingua Logo](https://media.licdn.com/dms/image/sync/D4D27AQG62fiQpVvBkQ/articleshare-shrink_1280_800/0/1711608756795?e=1713790800&v=beta&t=afUM_KtBZetVlJGQr7fCuBZesE2PIh6vvDWpDqTV5hU)
 
 Basiclingua is a Gemini LLM based Python library that provides functionalities for linguistic tasks such as tokenization, stemming, lemmatization, and many others.
 
