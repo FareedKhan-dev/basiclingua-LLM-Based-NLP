@@ -1,9 +1,9 @@
 <!-- omit in toc -->
 # BasicLingua
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1aWOEpzco-7zevu2ma7djkiCpcV_Rk2Iv?usp=sharing) [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/fareedkhan557/basiclingua-nlp) [![GitHub](https://img.shields.io/badge/GitHub-Notebook-blue?logo=github)](https://github.com/FareedKhan-dev/basic_lingua/blob/master/backend_notebook.ipynb) [![Documentation](https://img.shields.io/badge/Documentation-Link-blue)](https://basiclingua-docs.streamlit.app/) [![License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT) [![Django](https://img.shields.io/badge/Django-Project-green?logo=django)](https://github.com/FareedKhan-dev/basiclingua-LLM-Based-NLP/tree/master/BasicLingua-Webapp)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1aWOEpzco-7zevu2ma7djkiCpcV_Rk2Iv?usp=sharing) [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/fareedkhan557/basiclingua-nlp) [![GitHub](https://img.shields.io/badge/GitHub-Notebook-blue?logo=github)](https://github.com/FareedKhan-dev/basic_lingua/blob/master/backend_notebook.ipynb) [![Documentation](https://img.shields.io/badge/Documentation-Link-blue)](https://basiclingua-docs.streamlit.app/) [![License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT) [![FastAPI](https://img.shields.io/badge/FastAPI-Project-green?logo=fastapi)](https://github.com/FareedKhan-dev/basiclingua-LLM-Based-NLP/tree/master/api) [![Django](https://img.shields.io/badge/Django-Project-green?logo=django)](https://github.com/FareedKhan-dev/basiclingua-LLM-Based-NLP/tree/master/BasicLingua-Webapp)
 
 
-![Basic-Lingua Logo](https://media.licdn.com/dms/image/sync/D4D27AQG62fiQpVvBkQ/articleshare-shrink_1280_800/0/1711608756795?e=1713790800&v=beta&t=afUM_KtBZetVlJGQr7fCuBZesE2PIh6vvDWpDqTV5hU)
+![Basic-Lingua Logo](https://i.ibb.co/TgQ1TGg/Group-2.png)
 
 Basiclingua is a Gemini LLM based Python library that provides functionalities for linguistic tasks such as tokenization, stemming, lemmatization, and many others.
 
@@ -12,18 +12,66 @@ Basiclingua is a Gemini LLM based Python library that provides functionalities f
 The problem that we plan to tackle is the increasing complexity and difficulty of handling text data as its size and complexity increase. NLP libraries that offer solutions are either limited in their ability to solve the required problem or require a great deal of human intervention to handle text data. We have used Gemini Language Model, which have demonstrated promising results in dealing with text data, to address the complexity that no NLP library has yet solved. As a result, we will be able to handle text-related tasks with minimal human intervention. We have created a powerful NLP library capable of solving any type of human text-related task, producing accurate results.
 
 **Updates**
+- **`2024/4/19`** Thanks to [Chris Walters](https://github.com/chwalters) for providing the Basiclingua NLP library as an API service using [FastAPI](https://fastapi.tiangolo.com/), available through two mediums: either `Docker` or `pip`.
 - **`2024/3/3`** We have released the first version of the library. The library is now available for use. We are currently working on the documentation and the next version of the library. We are also working on the integration of the library with other LLMs.
 - **`2024/2/10`** We have released the baby version of this library containing limited number of pre-processing features.
+
+## As an API
+
+To use BasicLingua as an API in your app, there are two ways to achieve it.
+
+####  Using `pip install`
+
+```bash
+# cloning the repository
+git clone https://github.com/FareedKhan-dev/basiclingua-LLM-Based-NLP.git
+cd basiclingua-LLM-Based-NLP/api
+
+# creating virtual environment (to avoid any errors)
+python -m venv .venv
+
+# activating the environment
+source .venv/bin/activate
+
+# Installing the required libraries
+pip install -r requirements.txt
+
+# creating .env which contains Gemini API Key
+echo GEMINI_API_KEY="YOUR_GEMINI_API_KEY" > .env
+
+# Starting the app
+uvicorn main:app
+```
+
+####  Using `Docker`
+
+Make sure you have [docker](https://www.docker.com/) installed in your environment.
+
+```bash
+# cloning the repository
+git clone https://github.com/FareedKhan-dev/basiclingua-LLM-Based-NLP.git
+cd basiclingua-LLM-Based-NLP/api
+
+# creating .env which contains Gemini API Key
+echo GEMINI_API_KEY="YOUR_GEMINI_API_KEY" > .env
+
+# Build the Docker image using the following command:
+docker build -t your_app_name .
+
+# run a container based on that image
+docker run -d -p 80:80 your_app_name
+```
 
 ## Web Demo
 
 To run web demo (contains 4 features):
 
 ```bash
+Cloning the repo
 git clone https://github.com/FareedKhan-dev/basiclingua-LLM-Based-NLP.git
-
 cd basiclingua-LLM-Based-NLP/BasicLingua-Webapp
 
+# Running Django App (Make sure django installed in your environment)
 python manage.py runserver
 ```
 
