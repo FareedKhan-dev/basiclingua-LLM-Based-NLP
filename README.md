@@ -1,5 +1,8 @@
 <!-- omit in toc -->
 # BasicLingua
+
+### We will soon release V2 (version 2) of this library, which supports OpenAI, Gemini, and many other open-source LLM APIs, along with improved accuracy and outputs.
+
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1aWOEpzco-7zevu2ma7djkiCpcV_Rk2Iv?usp=sharing) [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/fareedkhan557/basiclingua-nlp) [![GitHub](https://img.shields.io/badge/GitHub-Notebook-blue?logo=github)](https://github.com/FareedKhan-dev/basic_lingua/blob/master/backend_notebook.ipynb) [![Documentation](https://img.shields.io/badge/Documentation-Link-blue)](https://basiclingua-docs.streamlit.app/) [![License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT) [![FastAPI](https://img.shields.io/badge/FastAPI-Project-green?logo=fastapi)](https://github.com/FareedKhan-dev/basiclingua-LLM-Based-NLP/tree/master/api) [![Django](https://img.shields.io/badge/Django-Project-green?logo=django)](https://github.com/FareedKhan-dev/basiclingua-LLM-Based-NLP/tree/master/BasicLingua-Webapp)
 
 
