@@ -1,7 +1,7 @@
 <!-- omit in toc -->
 # BasicLINGUA
 
-[![Documentation](https://img.shields.io/badge/AI%20Powered%20Documentation-Link-yellow)](https://ai-powered-basiclingua-documentation.streamlit.app/) [![License](https://img.shields.io/badge/License-MIT-yellow)](https://opensource.org/licenses/MIT)  [![GitHub](https://img.shields.io/badge/GitHub-Notebook-blue?logo=github)](https://github.com/FareedKhan-dev/basic_lingua/blob/master/backend_notebook.ipynb)  [![Python](https://img.shields.io/badge/Python-3.9%2B-green)](https://www.python.org/downloads/) [![Version](https://img.shields.io/badge/BasicLingua%20Version-2.0-green)]()
+[![Documentation](https://img.shields.io/badge/AI%20Powered%20Documentation-Link-yellow)](https://ai-powered-basiclingua-documentation.streamlit.app/) [![License](https://img.shields.io/badge/License-MIT-yellow)](https://opensource.org/licenses/MIT)  [![GitHub](https://img.shields.io/badge/GitHub-Notebook-blue?logo=github)](https://github.com/FareedKhan-dev/basiclingua-LLM-Based-NLP/blob/V2/Tutorial/Guide.ipynb)  [![Python](https://img.shields.io/badge/Python-3.9%2B-green)](https://www.python.org/downloads/) [![Version](https://img.shields.io/badge/BasicLingua%20Version-2.0-green)]()
 
 ![Basic-Lingua Logo](images/logo.png)
 
